@@ -23,7 +23,8 @@
     display: flex;
     align-items: center;
 
-    span {
+    :link {
+        text-decoration: none;
         justify-content: center;
         align-items: center;
         color: gray;        
@@ -31,9 +32,6 @@
         font-size: 20px;
         &:hover {
             color: white;
-        }
-        &:active {
-            color: darkblue;
         }
     }
 };
@@ -66,18 +64,24 @@
 };
 
 .sidebar {
-    color: darkmagenta;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
     border: 2px solid red;
     width: 150px;
     height: 600px;
     margin: 30px 0px 0px 30px;
     
     span {
+        border: 1px solid yellow;
+        display: flex;
+        vertical-align: middle;
         text-align: center;
         justify-content: center;
+        &:hover {
+            color: gray;
+        }
 
-        & + & {
-            margin-right: 20px
+        margin: 180px 10px 0px 10px ;
         };
-    };
 };
