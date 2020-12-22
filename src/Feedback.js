@@ -3,13 +3,13 @@ import './components/Topnavi.scss';
 import Topnavi from './components/Topnavi';
 
 
-const Member = () => {
+const Feedback = () => {
   return (
     <div>
       <Topnavi></Topnavi>
-      <h1>멤버 테스트</h1>
+      <h1>피드백 테스트</h1>
     </div>
   );
 };
 
-export default Member;
+export default Feedback;
