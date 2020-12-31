@@ -10,10 +10,6 @@ const Main = () => {
     <div className="Mainct">
         <Topnavi></Topnavi>
       <body>
-        <div className="sidebar">
-          <span className="1">Front-end</span>
-          <span className="2">Back-end</span>
-        </div>
       </body>
       <footer>
         <div className="logos">

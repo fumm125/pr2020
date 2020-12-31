@@ -7,7 +7,12 @@ const Project = () => {
   return (
     <div>
       <Topnavi></Topnavi>
-      <h1>프로젝트 테스트</h1>
+      <div className="projectct">
+        <div className="sidebar">
+          <span className="1">Front-end</span>
+          <span className="2">Back-end</span>
+        </div>
+      </div>
     </div>
   );
 };

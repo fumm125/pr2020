@@ -10,7 +10,7 @@ class Topnavi extends Component {
             <div className="Top">
       <header className="Topnav">
         <div className="sec1">
-            <Link to="/" className="Homelink">Text</Link>
+            <Link to="/" className="Homelink">PR.</Link>
         </div>
         <nav>
           <Link to="/Member" className="mainbr">Member</Link>
