@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './components/Topnavi.scss';
 import Topnavi from './components/Topnavi';
+import { Link } from 'react-router-dom';
+import './Project.scss';
 
 
 const Project = () => {
@@ -9,8 +11,8 @@ const Project = () => {
       <Topnavi></Topnavi>
       <div className="projectct">
         <div className="sidebar">
-          <span className="1">Front-end</span>
-          <span className="2">Back-end</span>
+          <Link to="/Front" className="frontbr">Front-end</Link>
+          <Link to="/Back" className="backbr">Back-end</Link>
         </div>
       </div>
     </div>
