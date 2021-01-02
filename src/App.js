@@ -8,6 +8,8 @@ import Main from './Main';
 import Member from './Member';
 import Project from './Project';
 import Feedback from './Feedback';
+import Front from './Front';
+import Back from './Back';
 
 
 
@@ -19,6 +21,8 @@ function App() {
       <Route path="/Member" component={Member} />
       <Route path="/Project" component={Project} />
       <Route path="/Feedback" component={Feedback} />
+      <Route path="/Front" component={Front} />
+      <Route path="/Back" component={Back} />
     </div>
   );
 }

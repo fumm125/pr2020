@@ -1,0 +1,32 @@
+.sidebar {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+    // border: 2px solid red;
+    width: 150px;
+    height: 600px;
+    margin: 170px 0px 0px 30px;
+
+    :link {
+        // border: 1px solid yellow;
+        display: flex;
+        text-decoration: none;
+        vertical-align: middle;
+        text-align: center;
+        justify-content: center;
+        &:hover {
+            color: gray;
+        }
+    
+        margin: 180px 10px 200px 30px ;
+        };
+};
+
+.frontbr,.backbr {
+    font-size :20px;
+    color: white;
+    &:hover {
+        color: gray;
+    };
+};

@@ -1,33 +1,73 @@
 .memberct {
+    display: inline-block;
 };
 
-.Han {
+
+
+.info {
+    margin-top: 70px;
+    width: 100px;
+    display: flex;
+
+    ul {
+        width: 100px;
+        margin-right: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    };
+
+    li {
+        text-align: left;
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 15px;
+    };
+    
+};
+
+.no1,.no2,.no3 {
+    opacity: 0.9;
+};
+
+
+.no1 {
     position: absolute;
     text-align: center;
-    width: 600px;
+    width: 400px;
     height: 700px;
     border-radius: 30px;
-    margin: 150px 0px 0px 280px;
+    margin: 150px 150px 0px 150px;
     background: white;
 };
 
-.Sung {
-    position: relative;
+.no2 {
+    position: absolute;
     text-align: center;
-    float: right;
-    width: 600px;
+    width: 400px;
     height: 700px;
     border-radius: 30px;
-    margin: 150px 280px 0px 100px;
+    margin: 150px 0px 0px 750px;
+    background: white;
+};
+
+.no3 {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    margin: 150px 150px 0px 1350px;
     background: white;
 };
 
 img {
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     margin-top: 30px;
 };
 
 h2 {
+    margin-top: 40px;
     font-weight: bold;
 };
