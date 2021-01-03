@@ -7,12 +7,13 @@ import './Front.scss';
 
 
 const Front =  () => {
+    
     return (
         <div>
             <Topnavi></Topnavi>
             <SidebarMb></SidebarMb>
             <div className="Frontct">
-
+                <h1>프론트엔드 부분 영역</h1>
             </div>
         </div>
     );

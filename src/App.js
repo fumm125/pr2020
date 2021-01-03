@@ -25,7 +25,7 @@ function App() {
       <Route path="/Back" component={Back} />
     </div>
   );
-}
+};
 
 export default App;
 
