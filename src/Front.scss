@@ -1,11 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean');
+
 .Frontct {
+
+    font: normal 18px 'Roboto', 'Noto Sans KR';
+	line-height: 1;
+
     position: absolute;
     width: 1500px;
-    height: 750px;
-    text-align: center;
-    background: white;
+    height: 3000px;
+    background-color: #ffffff;
+    background-color: rgba( 82, 82, 82, 0.6 );
     border-radius: 30px;
-    opacity: 0.9;
+    
 
     margin: 40px 235px 50px 250px;
+};
+
+h1 {
+    font-weight: bold;
+    color: white;
+    margin: 30px 10px 10px 30px ;
+};
+
+h1::after {
+    position: absolute; top: 45px; left: 390px; right: 50px; content: ''; height: 3px; background-color: #a69eb0;
+};
+
+
+.fsec1,.fsec2,.fsec3,.fsec4 {
+    margin: 80px 150px 100px 80px;
+    border: 2px solid red;
+    width: 1340px;
+    height: 500px;
+};
+
+img {
+    width: 300px;
+    margin: 75px 0px 0px 50px;
 };

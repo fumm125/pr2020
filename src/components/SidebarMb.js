@@ -7,9 +7,9 @@ class SidebarMb extends Component {
     render() {
         return (
             <div className="sidebar">
-          <Link to="/Front" className="frontbr">Front-end</Link>
-          <Link to="/Back" className="backbr">Back-end</Link>
-        </div>
+                <Link to="/Front" className="frontbr">Front-end</Link>
+                <Link to="/Back" className="backbr">Back-end</Link>
+            </div>
         );
     }
     
