@@ -13,7 +13,7 @@ ul,ol {
 
     position: absolute;
     width: 1500px;
-    height: 3000px;
+    height: 2000px;
     background-color: #ffffff;
     background-color: rgba( 82, 82, 82, 0.6 );
     border-radius: 30px;
@@ -25,10 +25,10 @@ ul,ol {
 .Toptext {
     font-weight: bold;
     color: white;
-    margin: 30px 10px 10px 30px ;
+    margin: 50px 10px 10px 50px ;
 
     ::after {
-        position: absolute; top: 45px; left: 390px; right: 50px; content: ''; height: 3px; background-color:white;
+        position: absolute; top: 65px; left: 390px; right: 50px; content: ''; height: 3px; background-color:white;
     };
 };
 
@@ -54,5 +54,5 @@ ul,ol {
 
 
 .Frontinfo > li .textsec {width: 70%; margin-left: 30px;}
-.Frontinfo > li .textsec > h1 {color: white; font-weight: 700;margin-bottom: 60px;}
-.Frontinfo > li .textsec > p {color: white; font-weight: 200; margin-bottom: 10px;}
+.Frontinfo > li .textsec > h1 {color: white; font-weight: 700;margin-bottom: 80px;}
+.Frontinfo > li .textsec > p {color: white; font-weight: 200; margin-bottom: 20px;font-size: 20px;}

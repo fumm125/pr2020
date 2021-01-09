@@ -7,6 +7,7 @@ import './components/SidebarMb.scss';
 import './Front.scss';
 import fsec1img from './img/react.png';
 import fsec2img from './img/web.png';
+import fsec3img from './img/scss.png';
 
 
 const Front =  () => {
@@ -60,18 +61,19 @@ const Front =  () => {
                     </li>
                     <li>
                         <div className="imgsec">
-                            <img src={fsec2img} alt='fsec2img'/>
-                            </div>
-                            <div className="textsec">
-                            <h1>REACT</h1> 
-                            </div>
-                        </li>
-                    <li>
-                        <div className="imgsec">
-                            <img src={fsec1img} alt='fsec1img'/>
-                            </div>
-                            <div className="textsec">
-                            <h1>REACT</h1> 
+                            <img src={fsec3img} alt='fsec3img'/>
+                        </div>
+                        <div className="textsec">
+                            <h1>SCSS</h1> 
+                            <p>
+                            CSS의 태생적 한계를 보완가능한 전처리기 SCSS를 사용했습니다
+                            <br></br>
+                            <br></br>
+                            Mixin 기능,중첩선언이 가능하다는 점 등 다양한 기능과 장점으로 무장한 SCSS를 다룰 수 있습니다.
+                            <br></br>
+                            <br></br>
+                            코드중복의 최소화, 간편한 유지보수와 다양한 함수 사용가능으로 좋은 효율을 기대할 수 있습니다.
+                            </p>
                         </div>
                     </li>
                 </ol>
