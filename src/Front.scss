@@ -37,13 +37,11 @@ ul,ol {
 .Frontinfo > li {
     display: flex;
     margin: 80px 150px 100px 80px;
-    border: 2px solid red;
     width: 1340px;
     height: 500px;
 
     img {
-        // width: 300px;
-        // margin: 55px 0px 0px 50px;
+        margin-top: 10%;
         width: 100%;
 
     };
@@ -54,5 +52,5 @@ ul,ol {
 
 
 .Frontinfo > li .textsec {width: 70%; margin-left: 30px;}
-.Frontinfo > li .textsec > h1 {color: white; font-weight: 700;margin-bottom: 80px;}
-.Frontinfo > li .textsec > p {color: white; font-weight: 200; margin-bottom: 20px;font-size: 20px;}
+.Frontinfo > li .textsec > h1 {color: white; font-weight: 700; margin-top:8%}
+.Frontinfo > li .textsec > p {color: white; font-weight: 200; margin-top: 10%;font-size: 20px;}

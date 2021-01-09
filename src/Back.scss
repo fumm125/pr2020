@@ -1,11 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean');
+
+ul,ol {
+    list-style: none;
+};
+
 .Backct {
+
+    font: normal 18px 'Roboto', 'Noto Sans KR';
+	line-height: 1;
+
     position: absolute;
     width: 1500px;
-    height: 750px;
-    text-align: center;
-    background: white;
+    height: 2000px;
+    background-color: #ffffff;
+    background-color: rgba( 82, 82, 82, 0.6 );
     border-radius: 30px;
-    opacity: 0.9;
+    
 
     margin: 40px 235px 50px 250px;
 };
+
+.Toptext {
+    font-weight: bold;
+    color: white;
+    margin: 50px 10px 10px 50px ;
+
+    ::after {
+        position: absolute; top: 65px; left: 390px; right: 50px; content: ''; height: 3px; background-color:white;
+    };
+};
+
+
+
+.Backinfo > li {
+    display: flex;
+    margin: 80px 150px 100px 80px;
+    width: 1340px;
+    height: 500px;
+
+    img {
+        margin-top: 15%;
+        width: 100%;
+
+    };
+};
+.Backinfo > li .imgsec {width: 30%;}
+.Backinfo > li:nth-child(odd) .imgsec {margin-right: 8%;}
+.Backinfo > li:nth-child(even) .imgsec {margin-left: 1%; order: 2;}
+
+
+.Backinfo > li .textsec {width: 70%; margin-left: 30px;}
+.Backinfo > li .textsec > h1 {color: white; font-weight: 700; margin-top:8%}
+.Backinfo > li .textsec > p {color: white; font-weight: 200; margin-top: 10%;font-size: 20px;}
