@@ -82,5 +82,4 @@ const Front =  () => {
     );
 };
 
-
 export default Front;

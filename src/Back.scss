@@ -45,11 +45,11 @@ ul,ol {
 
     };
 };
-.Backinfo > li .imgsec {width: 30%;}
+.Backinfo > li .imgsec {width: 30%;visibility: hidden;animation: fadein 2s;animation-fill-mode: forwards;animation-delay: 1s;}
 .Backinfo > li:nth-child(odd) .imgsec {margin-right: 8%;}
 .Backinfo > li:nth-child(even) .imgsec {margin-left: 1%; order: 2;}
 
 
-.Backinfo > li .textsec {width: 70%; margin-left: 30px;}
+.Backinfo > li .textsec {width: 70%; margin-left: 30px;visibility: hidden;animation: fadein 2s;animation-fill-mode: forwards;animation-delay: 2s;}
 .Backinfo > li .textsec > h1 {color: white; font-weight: 700; margin-top:8%}
 .Backinfo > li .textsec > p {color: white; font-weight: 200; margin-top: 10%;font-size: 20px;}

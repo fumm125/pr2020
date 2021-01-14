@@ -42,9 +42,9 @@ const Member = () => {
             </ul>
             <ul>
               <li>성일도</li>
-              <li>1</li>
-              <li>1</li>
-              <li>@naver.com</li>
+              <li>31</li>
+              <li>Back-end</li>
+              <li>tjddlfeh@naver.com</li>
             </ul>
           </div>
          </div>
