@@ -4,6 +4,8 @@ import './Main.scss';
 import Topnavi from './components/Topnavi';
 import Button from './components/Button';
 import Cover from './components/Cover';
+import SimpleSlider from './components/Slide';
+
 
 
 const Main = () => {
@@ -12,6 +14,9 @@ const Main = () => {
         <Topnavi></Topnavi>
         <Cover></Cover>
       <body>
+        <div className="slideBox">
+          <SimpleSlider></SimpleSlider>
+        </div>
       </body>
       <footer>
         <div className="logos">
